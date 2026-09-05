@@ -1,0 +1,16 @@
+{
+  "enabled": false,
+  "classifier": {
+    "timeoutMs": 15000,
+    "maxTranscriptChars": 24000
+  },
+  "rules": {
+    "allow": [],
+    "ask": ["bash:git push *"],
+    "deny": []
+  },
+  "environment": {
+    "trustedDomains": [],
+    "trustedPaths": []
+  }
+}
